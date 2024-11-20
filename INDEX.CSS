@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+.container{
+    min-height: 100vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* Hero section */  
+#hero {
+    background-image: url(imgs/new\ bag\ 1.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+   
+
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: transparent;
+   
+}
+#hero .cta {
+    display: inline-block;
+    padding: 20px 50px;
+    color:green;
+    background-color: rgba(49, 8, 8, 0.199);
+    border: 2px solid white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    
+
+
+}
+#hero .cta:hover {
+    color: rgba(104, 46, 46, 0.171);
+    background-color: transparent;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color:rgba(218, 113, 113, 0.199);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:rgba(248, 124, 124, 0.233) ;
+  color:rgba(248, 124, 124, 0.233);
+}
+
+
+/* Left-aligned section inside the top navigation */
+.topnav-left {
+  float: left;
+}
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: rgba(248, 124, 124, 0.233);
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
+
+
